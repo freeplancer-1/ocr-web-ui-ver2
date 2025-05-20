@@ -33,7 +33,7 @@ function UploadPage() {
 
 		try {
 			const baseUrl = import.meta.env.VITE_API_BASE_URL;
-			const uploadUrl = `${baseUrl}/api/upload-image`;
+			const uploadUrl = `${baseUrl}/upload-image`;
 
 			const results = await uploadImages(files, {
 				url: uploadUrl,
